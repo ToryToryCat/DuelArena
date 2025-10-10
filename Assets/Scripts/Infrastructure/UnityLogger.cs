@@ -1,16 +1,13 @@
 using UnityEngine;
 
-namespace DuelArena.Infrastructure
+/// <summary>
+/// Logs messages to the Unity console.
+/// </summary>
+public sealed class UnityLogger : ILogger
 {
-    /// <summary>
-    /// Logs messages to the Unity console.
-    /// </summary>
-    public sealed class UnityLogger : ILogger
+    /// <inheritdoc />
+    public void Log(string message)
     {
-        /// <inheritdoc />
-        public void Log(string message)
-        {
-            Debug.Log(message);
-        }
+        Debug.Log(message);
     }
 }

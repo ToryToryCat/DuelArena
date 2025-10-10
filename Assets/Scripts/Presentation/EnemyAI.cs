@@ -1,6 +1,5 @@
 using System;
 using DuelArena.Application;
-using DuelArena.Infrastructure;
 using UnityEngine;
 
 namespace DuelArena.Presentation
