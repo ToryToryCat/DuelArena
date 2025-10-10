@@ -721,10 +721,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0befbc73cf3abc74f85159e042d64a66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   player: {fileID: 1032}
   enemy: {fileID: 1042}
+  moveSpeed: 5
+  rotationSpeed: 720
 --- !u!1 &1060
 GameObject:
   m_ObjectHideFlags: 0
